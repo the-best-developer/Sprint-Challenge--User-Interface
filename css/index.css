@@ -200,9 +200,9 @@ footer {
 footer nav {
     width: 100%;
     display: flex;
-    align-text: center;
+    text-align: center;
     align-items: flex-start;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 footer nav a {
@@ -244,7 +244,6 @@ footer nav a {
     font-size: 16px;
     width: 130px;
     height: 40px;
-    vertical-align: center;
     text-align: center;
     display: inline-block;
     color: black;
@@ -265,5 +264,5 @@ footer nav a {
 }
 
 .letswork p {
-    margin: 0px 0px 25px 0px;
+    margin-bottom: 25px;
 }
