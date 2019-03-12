@@ -71,12 +71,36 @@ p {
     margin: 0 auto;
 }
 
+.header-content {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    margin: 30px 0px 40px 0px;
+    align-items: center;
+}
+
+.header-content nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-content nav a {
+    margin: 20px 40px 0px 45px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    margin: 20px auto;
 }
 
 .top-content .text-container {
@@ -112,6 +136,47 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -129,18 +194,75 @@ p {
 footer {
     width: 100%;
     background: black;
+    padding: 20px;
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    text-align: center;
+    align-items: flex-start;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    margin-right: 60px;
+}
+
+/* About page */
+
+.about-content {
+    border-bottom: 1px dashed black;
+    margin: 25px auto;
+    padding: 0px 2.5%;
+}
+
+.about-content p {
+    margin-bottom: 25px;
+}
+
+.about-content-boxes {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.about-box {
+    width: 48%;
+    height: 435px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.about-box a {
+    text-decoration: none;
+    font-size: 16px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding-top: 10px;
+}
+
+.about-box img {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.letswork {
+    width: 95%;
+    margin: 0px auto;
+}
+
+.letswork p {
+    margin-bottom: 25px;
 }
